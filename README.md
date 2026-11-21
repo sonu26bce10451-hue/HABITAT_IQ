@@ -87,37 +87,9 @@ Accessible via the floating beacon at bottom-right across the application:
   - *"Explain this risk score"*
 - **Honest Fallback**: Refuses hallucinations and clearly states boundaries if asked questions outside geospatial forestry telemetry.
 
----
-
-## 📁 File Structure
-
-```text
-habitat-iq/
-├── index.html        # Master semantic application markup & modal sheets
-├── styles.css        # Editorial design system, custom Leaflet styling & print sheet
-├── map-config.js     # ISRO Bhuvan WMS endpoints, token setup & fallback basemaps
-├── data.js           # Structured telemetry store, GeoJSON overlays & ISRO missions
-├── app.js            # Reactive state manager, Leaflet engine & AI chat controller
-└── README.md         # Full documentation & deployment manual
-```
 
 ---
 
-## 🔑 Where to Add Your ISRO Bhuvan Token
-
-To enable live ISRO Bhuvan WMS/WMTS tiles:
-1. Open [`map-config.js`](map-config.js).
-2. Locate the `bhuvan` configuration block:
-   ```javascript
-   bhuvan: {
-     token: 'YOUR_BHUVAN_TOKEN_HERE',
-     wmsUrl: 'https://bhuvan-vec2.nrsc.gov.in/bhuvan/wms',
-     ...
-   }
-   ```
-3. Paste your token and save. When left empty, HABITAT IQ seamlessly uses the high-resolution open satellite baseline with the polite notification banner.
-
----
 
 ## 🚀 How to Run Locally
 
