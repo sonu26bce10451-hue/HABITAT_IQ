@@ -53,7 +53,7 @@ The centerpiece of HABITAT IQ is a full-width interactive map powered by Leaflet
 
 ---
 
-## 🌿 11 Integrated Interactive Modules
+## 🌿 5 Integrated Interactive Modules
 
 1. **Forest Health Monitor**: 12-month NDVI vegetation index time-series line chart (Chart.js) with 5-year baseline comparison, canopy cover percentage, 12-month delta, and plain-language ecological health diagnosis.
 2. **Threat Detection**: Active alerts for thermal fire hotspots, flood inundation, illegal encroachment, and canopy dieback with severity (Low / Medium / High), date, GPS coordinates, and SOP directives. Clicking an alert flies the map directly to it.
